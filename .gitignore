@@ -1,0 +1,30 @@
+# Operating system and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*~
+
+# STM32CubeIDE build outputs
+**/Debug/
+**/Release/
+
+# Compiled object and dependency files
+*.o
+*.d
+*.map
+*.list
+
+# Compiled firmware outputs
+*.elf
+*.bin
+*.hex
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary test output
+*.log
